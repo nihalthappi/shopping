@@ -1,0 +1,107 @@
+.home {
+  padding: 0px;
+  margin: 0px;
+  background-color: white;
+}
+.navlink-a {
+  text-decoration: none;
+  color: blue !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.navlink-a:hover {
+  text-decoration: underline;
+  color: black;
+}
+.navlink-col {
+  border-right: 2px black solid;
+  padding-right: 10px;
+  
+}
+.navlink-col:last-child {
+  border: none;
+}
+.main-cont {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  max-width: -webkit-fill-available;
+  background-color: white;
+}
+.product-img {
+  width: 66.67%;
+}
+.image-col {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.city-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  margin: 0 0 7px;
+  padding: 0;
+}
+.list-label {
+  font-weight: 700;
+}
+.list-item {
+  border-right: 1px black solid;
+  padding-left: 0.4rem;
+  padding-right: 0.5rem;
+}
+.list-item:last-child {
+  border: none;
+}
+.product-btn {
+  width: 100%;
+  background-color: white !important;
+  color: green !important;
+  margin: 0.3rem;
+}
+.product-btn:hover,
+.share-btn:hover,
+.download-btn:hover {
+  background-color: green !important;
+  color: white !important;
+}
+.product-btn i {
+  color: black;
+}
+.spec {
+  display: flex;
+}
+.download-btn {
+  width: 70%;
+  background-color: white !important;
+  color: green !important;
+}
+.share-btn {
+  width: 30%;
+  background-color: white !important;
+  color: green !important;
+}
+.second-nav {
+    position: -webkit-sticky;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    z-index: 10;
+
+}
+.variants-table{
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+}
+.accordion-items{
+    margin: 1rem ;
+}
+tr {
+    display: table-row;
+    vertical-align:middle;
+    border-color: inherit;
+}
