@@ -28,7 +28,7 @@ export default function HeaderNav() {
               </Nav.Link>
             </Col>
             <Col className="navlink-col">
-              <Nav.Link className="navlink-a" href="#">
+              <Nav.Link className="navlink-a" href="/productList">
                 MPO Cable Assemblies
               </Nav.Link>
             </Col>

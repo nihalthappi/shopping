@@ -1,0 +1,8 @@
+.accordion-items{
+    margin: 1rem ;
+}
+tr {
+    display: table-row;
+    vertical-align:middle;
+    border-color: inherit;
+}

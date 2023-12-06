@@ -1,0 +1,67 @@
+.image-col {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.thumbnail{
+  border-radius: 0px !important;
+  border: 1px solid lightgray !important;
+}
+.image-list {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.product-img {
+    width: 66.67%;
+  }
+  .city-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    margin: 0 0 7px;
+    padding: 0;
+  }
+  .list-label {
+    font-weight: 700;
+  }
+  .list-item {
+    border-right: 1px black solid;
+    padding-left: 0.4rem;
+    padding-right: 0.5rem;
+  }
+  .list-item:last-child {
+    border: none;
+  }
+  .product-btn {
+    width: 100%;
+    background-color: white !important;
+    color: green !important;
+    margin: 0.3rem;
+  }
+  .product-btn:hover,
+  .share-btn:hover,
+  .download-btn:hover {
+    background-color: green !important;
+    color: white !important;
+  }
+  .product-btn i {
+    color: black;
+  }
+  .spec {
+    display: flex;
+  }
+  .download-btn {
+    width: 70%;
+    background-color: white !important;
+    color: green !important;
+  }
+  .share-btn {
+    width: 30%;
+    background-color: white !important;
+    color: green !important;
+  }
+  

@@ -27,34 +27,9 @@
   max-width: -webkit-fill-available;
   background-color: white;
 }
-.product-img {
-  width: 66.67%;
-}
-.image-col {
-  padding: 2rem;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-.city-list {
-  display: flex;
-  flex-wrap: wrap;
-  list-style-type: none;
-  font-size: 0.875rem;
-  line-height: 1.125rem;
-  margin: 0 0 7px;
-  padding: 0;
-}
-.list-label {
-  font-weight: 700;
-}
-.list-item {
-  border-right: 1px black solid;
-  padding-left: 0.4rem;
-  padding-right: 0.5rem;
-}
-.list-item:last-child {
-  border: none;
+
+.navActive:hover{
+  text-decoration: underline !important;
 }
 .product-btn {
   width: 100%;
@@ -93,10 +68,7 @@
     z-index: 10;
 
 }
-.variants-table{
-    box-sizing: border-box;
-    border: 2px solid lightgray;
-}
+
 .accordion-items{
     margin: 1rem ;
 }
